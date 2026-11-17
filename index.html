@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Talenty i Rezultaty - rekrutacje, rozwój firm, coaching kariery | Małgorzata Prawdzik</title>
+<meta name="description" content="Rekrutacje z gwarancją, rozwój firm i coaching kariery. Małgorzata Prawdzik - certyfikowany coach, trener biznesu i wieloletni Manager Personalny.">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="preload" as="image" type="image/webp" href="img/hero-m-720.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-720.webp 720w, img/hero-m-900.webp 900w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" type="image/webp" href="img/hero-1440.webp" imagesrcset="img/hero-960.webp 960w, img/hero-1440.webp 1440w, img/hero-1920.webp 1920w" imagesizes="100vw" media="(min-width:761px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/barlow-semi-condensed-latin-600-normal.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/barlow-latin-400-normal.woff2" crossorigin>
+<style>
+@font-face{font-family:"Barlow SC";font-weight:600;font-display:swap;src:url(fonts/barlow-semi-condensed-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2013-2014,U+2018-201E,U+2026}
+@font-face{font-family:"Barlow SC";font-weight:600;font-display:swap;src:url(fonts/barlow-semi-condensed-latin-ext-600-normal.woff2) format("woff2");unicode-range:U+0100-024F}
+@font-face{font-family:"Barlow";font-weight:400;font-display:swap;src:url(fonts/barlow-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2013-2014,U+2018-201E,U+2026}
+@font-face{font-family:"Barlow";font-weight:400;font-display:swap;src:url(fonts/barlow-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-024F}
+@font-face{font-family:"Barlow";font-weight:600;font-display:swap;src:url(fonts/barlow-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2013-2014,U+2018-201E,U+2026}
+@font-face{font-family:"Barlow";font-weight:600;font-display:swap;src:url(fonts/barlow-latin-ext-600-normal.woff2) format("woff2");unicode-range:U+0100-024F}
+:root{--or:#E57E28;--or-d:#C9651A;--bl:#2D6BB3;--nv:#12305A;--nv-d:#0C2242;--ink:#1E2530;--mut:#4E5866;--gr:#EEF2F6;--line:#D8DFE8;--hh:72px;--wrap:min(92vw,1720px)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh)}
+body{margin:0;font:400 18px/1.6 Barlow,system-ui,"Segoe UI",sans-serif;color:var(--ink);background:#fff;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:"Barlow SC",Barlow,sans-serif;font-weight:600;line-height:1.08;margin:0;letter-spacing:-.005em}
+h2{font-size:clamp(32px,3.2vw,58px)}
+h3{font-size:clamp(23px,1.6vw,30px);line-height:1.15}
+p{margin:0}
+.wrap{width:var(--wrap);margin:0 auto}
+.btn{display:inline-flex;align-items:center;gap:12px;background:var(--or);color:#fff;text-decoration:none;font:600 18px/1 Barlow,sans-serif;padding:19px 28px;border-radius:4px;border:0;cursor:pointer;transition:background .2s}
+.btn:hover{background:var(--or-d)}
+.btn .og{width:30px;height:18px}
+/* ogniwa - znak z logo */
+.og{display:inline-block;flex:none}
+/* header */
+.top{position:sticky;top:0;z-index:50;background:#fff;height:var(--hh);border-bottom:1px solid var(--line)}
+.top .wrap{height:100%;display:flex;align-items:center;gap:28px}
+.logo img{height:46px;width:auto}
+.menu{display:flex;gap:clamp(18px,2vw,40px);margin-left:auto;list-style:none;padding:0;margin-top:0;margin-bottom:0}
+.menu a{text-decoration:none;font-weight:600;font-size:17px;color:var(--ink);padding:6px 0;border-bottom:2px solid transparent}
+.menu a:hover{border-color:var(--or)}
+.menu a.on{border-color:var(--bl);color:var(--bl)}
+.tel{font-weight:600;text-decoration:none;color:var(--nv);white-space:nowrap;display:flex;align-items:center;gap:8px;font-size:18px}
+.tel svg{width:18px;height:18px}
+.burger{display:none;background:none;border:0;width:44px;height:44px;padding:10px;cursor:pointer;margin-left:4px}
+.burger span{display:block;height:2px;background:var(--ink);margin:6px 0;transition:transform .2s,opacity .2s}
+/* hero */
+.hero{position:relative;min-height:calc(100svh - var(--hh));display:flex;align-items:center;color:#fff;background:var(--nv);overflow:hidden}
+.hero-foto{position:absolute;inset:0}
+.hero-foto img{width:100%;height:100%;object-fit:cover;object-position:28% 22%}
+.hero-foto::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(18,48,90,0) 30%,rgba(18,48,90,.55) 50%,rgba(18,48,90,.86) 66%,rgba(18,48,90,.92))}
+.hero-in{position:relative;z-index:1;width:var(--wrap);margin:0 auto;display:flex;justify-content:flex-end;padding:56px 0}
+.hero-txt{width:min(44%,780px)}
+.hero h1{font-size:clamp(46px,4.6vw,92px);line-height:1.02}
+.hero .lead{font-size:clamp(19px,1.35vw,24px);line-height:1.5;margin:22px 0 34px;color:#E3EAF3;max-width:36em}
+.hero .lead b{color:#fff;font-weight:600}
+.hero .ogl{display:block;width:clamp(64px,4.4vw,96px);height:auto;margin-bottom:26px;filter:drop-shadow(0 0 1px rgba(255,255,255,.35))}
+/* sekcje */
+section{padding:clamp(72px,8vw,140px) 0}
+.sec-h{display:flex;align-items:flex-end;justify-content:space-between;gap:24px 60px;flex-wrap:wrap;margin-bottom:clamp(36px,3.4vw,60px)}
+.sec-h h2{max-width:18ch}
+.sec-h p{max-width:44em;color:var(--mut);font-size:clamp(18px,1.15vw,21px)}
+.znak{display:flex;align-items:center;gap:14px;margin-bottom:22px}
+.znak .og{width:auto;height:40px}
+.znak span{height:1px;flex:1;max-width:160px;background:linear-gradient(90deg,var(--or),var(--bl))}
+/* oferta */
+#oferta{background:var(--gr)}
+.haslo{font-family:"Barlow SC",sans-serif;font-weight:600;font-size:clamp(20px,1.4vw,26px);color:var(--nv);display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.haslo i{width:9px;height:9px;border-radius:50%;background:var(--or);display:inline-block}
+.haslo i:nth-of-type(2){background:var(--bl)}
+.sciezki{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(18px,1.6vw,32px)}
+.sc{background:#fff;display:flex;flex-direction:column;min-width:0;position:relative;border-radius:6px;overflow:hidden;box-shadow:0 1px 0 var(--line)}
+.sc figure{margin:0;aspect-ratio:16/9;overflow:hidden}
+.sc figure img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.sc:hover figure img{transform:scale(1.03)}
+.sc-b{padding:clamp(24px,2vw,38px);display:flex;flex-direction:column;gap:14px;flex:1;position:relative}
+.sc-b::before{content:"";position:absolute;left:clamp(24px,2vw,38px);top:0;width:64px;height:4px;background:var(--or);transform:translateY(-2px)}
+.sc:nth-child(2) .sc-b::before{background:var(--bl)}
+.sc:nth-child(3) .sc-b::before{background:linear-gradient(90deg,var(--or) 50%,var(--bl) 50%)}
+.sc-b p{color:var(--mut)}
+.sc ul{list-style:none;padding:0;margin:6px 0 0;border-top:1px solid var(--line)}
+.sc li{padding:11px 0;border-bottom:1px solid var(--line);font-weight:600;display:flex;gap:12px;align-items:center}
+.sc li::before{content:"";width:14px;height:8px;flex:none;border:2px solid var(--or);border-radius:8px;box-shadow:6px 0 0 -2px #fff,6px 0 0 0 var(--bl)}
+.sc .kto{margin-top:auto;padding-top:10px;font-size:16px;color:var(--bl);font-weight:600}
+/* granat */
+#wyroznia{background:var(--nv);color:#fff;position:relative;overflow:hidden}
+#wyroznia .petla{position:absolute;right:-6vw;top:-8%;width:min(62vw,1100px);height:auto;opacity:.18;pointer-events:none}
+.wyr{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:clamp(40px,5vw,110px);align-items:center;position:relative}
+.wyr h2{max-width:16ch}
+.wyr .wst{color:#C9D6E6;font-size:clamp(18px,1.2vw,22px);margin:22px 0 30px;max-width:40em}
+.wyr ol{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 40px;counter-reset:w}
+.wyr li{padding:16px 0 16px 34px;border-top:1px solid rgba(255,255,255,.16);position:relative;color:#E6EDF6}
+.wyr li::before{content:"";position:absolute;left:0;top:24px;width:18px;height:10px;border:2px solid var(--or);border-radius:10px}
+.wyr li:nth-child(even)::before{border-color:#6FA3E0}
+.wyr li b{color:#fff;font-weight:600}
+.wyr figure{margin:0;position:relative}
+.wyr figure img{width:100%;aspect-ratio:4/3.3;object-fit:cover;border-radius:6px;cursor:zoom-in}
+.wyr figcaption{font-size:15px;color:#AFC2D9;margin-top:12px}
+/* Małgorzata */
+.ja{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(40px,5vw,110px);align-items:start}
+.ja-foto{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;position:sticky;top:calc(var(--hh) + 30px)}
+.ja-foto button{all:unset;cursor:zoom-in;display:block;border-radius:6px;overflow:hidden}
+.ja-foto button:first-child{grid-column:1/-1}
+.ja-foto img{width:100%;aspect-ratio:768/500;object-fit:cover;transition:transform .4s}
+.ja-foto button:hover img{transform:scale(1.03)}
+.ja-foto button:focus-visible{outline:3px solid var(--bl);outline-offset:3px}
+.ja h2{margin-bottom:8px}
+.rola{color:var(--or-d);font-weight:600;font-size:clamp(18px,1.2vw,21px);margin-bottom:26px}
+.ja .tx p{margin-bottom:16px;max-width:42em;color:#323B47}
+.kw{margin-top:34px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 36px}
+.kw div{padding:16px 0;border-top:1px solid var(--line)}
+.kw b{display:block;font-family:"Barlow SC",sans-serif;font-size:21px;color:var(--nv);margin-bottom:4px;font-weight:600}
+.kw span{color:var(--mut);font-size:17px;line-height:1.5}
+/* zaufali */
+#zaufali{background:var(--gr)}
+.loga{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.lg{background:#fff;border-radius:6px;padding:26px 20px 20px;display:flex;flex-direction:column;align-items:center;gap:16px;text-align:center;min-width:0}
+.lg img{height:52px;width:auto;max-width:100%;object-fit:contain;filter:grayscale(1);opacity:.85;transition:filter .3s,opacity .3s}
+.lg:hover img{filter:none;opacity:1}
+.lg span{font-size:15px;color:var(--mut);line-height:1.35}
+/* inspiracje */
+.art{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,2vw,40px)}
+.ar{border-top:3px solid var(--nv);padding-top:22px}
+.ar:nth-child(2){border-color:var(--or)}
+.ar:nth-child(3){border-color:var(--bl)}
+.ar small{display:block;color:var(--mut);font-size:15px;margin-bottom:10px}
+.ar h3{margin-bottom:12px}
+.ar p{color:var(--mut)}
+/* kontakt */
+#kontakt{background:var(--gr)}
+.kon{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(40px,5vw,110px);align-items:start}
+.kon .tx p{color:var(--mut);margin:20px 0 30px;max-width:36em}
+.dane{display:grid;gap:4px}
+.dane a,.dane div{display:flex;flex-direction:column;padding:16px 0;border-top:1px solid var(--line);text-decoration:none}
+.dane small{color:var(--mut);font-size:15px}
+.dane b{font-size:clamp(21px,1.5vw,27px);font-family:"Barlow SC",sans-serif;font-weight:600;color:var(--nv)}
+.dane a:hover b{color:var(--bl)}
+form{background:#fff;padding:clamp(26px,2.6vw,48px);border-radius:6px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+label{display:flex;flex-direction:column;gap:7px;font-weight:600;font-size:16px;min-width:0}
+input,select,textarea{font:400 17px/1.4 Barlow,sans-serif;padding:14px 14px;border:1px solid #C3CDD9;border-radius:4px;background:#fff;color:var(--ink);width:100%}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--bl);border-color:var(--bl)}
+.full{grid-column:1/-1}
+.zg{flex-direction:row;font-weight:400;font-size:15px;color:var(--mut);gap:10px;align-items:flex-start}
+.zg input{width:20px;height:20px;flex:none;margin-top:2px}
+.fo-info{font-size:15px;color:var(--bl);font-weight:600;min-height:1em}
+/* stopka */
+footer{background:var(--nv-d);color:#B9C7D8;padding:56px 0 34px;font-size:16px}
+.st{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:30px}
+.st img{height:44px;width:auto;margin-bottom:16px}
+.st b{color:#fff;display:block;margin-bottom:10px;font-weight:600}
+.st a{text-decoration:none}
+.st a:hover{color:#fff}
+.st ul{list-style:none;padding:0;margin:0;display:grid;gap:6px}
+.st-d{margin-top:40px;padding-top:22px;border-top:1px solid rgba(255,255,255,.12);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center;font-size:15px}
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+/* lightbox */
+.lb{position:fixed;inset:0;background:rgba(8,18,34,.94);z-index:100;display:none;align-items:center;justify-content:center;padding:56px 16px}
+.lb.on{display:flex}
+.lb img{max-width:min(94vw,1400px);max-height:82vh;width:auto;height:auto;border-radius:4px}
+.lb p{position:absolute;bottom:18px;left:0;right:0;text-align:center;color:#D5DEEA;font-size:16px}
+.lb button{position:absolute;background:none;border:0;color:#fff;font:600 30px/1 Barlow,sans-serif;width:52px;height:52px;cursor:pointer}
+.lb .x{top:10px;right:10px}.lb .pv{left:8px;top:50%;transform:translateY(-50%)}.lb .nx{right:8px;top:50%;transform:translateY(-50%)}
+/* pasek mobilny */
+.mob{display:none}
+@media (min-width:1900px){.loga{grid-template-columns:repeat(5,minmax(0,1fr))}body{font-size:19px}}
+@media (max-width:1180px){
+ .menu{gap:18px}.menu a{font-size:16px}
+ .loga{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .st{grid-template-columns:1fr 1fr}
+}
+@media (max-width:1023px){
+ :root{--hh:62px}
+ .menu{display:none;position:fixed;top:var(--hh);left:0;right:0;background:#fff;flex-direction:column;gap:0;padding:8px 6vw 24px;border-bottom:1px solid var(--line);box-shadow:0 20px 40px rgba(18,48,90,.12)}
+ .menu.open{display:flex}
+ .menu a{display:block;padding:15px 0;border-bottom:1px solid var(--line);font-size:19px}
+ .menu a.on{border-bottom-color:var(--line);color:var(--bl)}
+ .burger{display:block;margin-left:auto}
+ .tel{margin-left:auto}.tel+.burger{margin-left:0}
+ .logo img{height:40px}
+ .sciezki{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:minmax(300px,72vw);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px;scrollbar-width:thin}
+ .sc{scroll-snap-align:start}
+ .wyr,.ja,.kon{grid-template-columns:minmax(0,1fr)}
+ .ja-foto{position:static}
+ .art{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:760px){
+ body{font-size:17px}
+ .tel span{display:none}
+ .tel{width:44px;height:44px;justify-content:center;border:1px solid var(--line);border-radius:50%}
+ .hero{flex-direction:column;align-items:stretch;justify-content:flex-end}
+ .hero-foto{position:relative;inset:auto;flex:1 1 auto;min-height:max(200px,30svh);align-self:stretch;width:100%}
+ .hero-foto img{position:absolute;inset:0;object-position:50% 16%}
+ .hero-foto::after{background:linear-gradient(180deg,rgba(18,48,90,0) 62%,rgba(18,48,90,.75) 88%,var(--nv))}
+ .hero-in{flex:0 0 auto;padding:4px 0 30px;display:block}
+ .hero-txt{width:auto}
+ .hero .ogl{width:48px;margin-bottom:12px}
+ .hero h1{font-size:clamp(34px,9.6vw,44px)}
+ .hero .lead{font-size:17px;margin:12px 0 28px}
+ .btn{width:100%;justify-content:center;padding:17px 20px}
+ section{padding:64px 0}
+ .wyr ol{grid-template-columns:minmax(0,1fr)}
+ .kw{grid-template-columns:minmax(0,1fr)}
+ .loga{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .lg{padding:20px 12px 16px}
+ form{grid-template-columns:minmax(0,1fr)}
+ .st{grid-template-columns:1fr 1fr;gap:26px 18px}
+ .st>div:first-child{grid-column:1/-1}
+ .mob{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:40;gap:8px;padding:10px 4vw calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--line);transform:translateY(110%);transition:transform .25s}
+ .mob.widac{transform:none}
+ .mob a{flex:1;text-align:center;text-decoration:none;font-weight:600;padding:14px 8px;border-radius:4px}
+ .mob .m1{border:1px solid var(--nv);color:var(--nv)}.mob .m2{background:var(--or);color:#fff}
+ footer{padding-bottom:96px}
+}
+@media (max-width:760px) and (max-height:700px){
+ .hero h1{font-size:clamp(31px,8.8vw,38px)}
+ .hero .lead{font-size:16px;line-height:1.45;margin:10px 0 26px}
+ .hero .ogl{display:none}
+}
+@media (min-width:761px) and (max-height:820px){
+ .hero h1{font-size:clamp(42px,4vw,72px)}
+ .hero .lead{margin:16px 0 26px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header class="top">
+ <div class="wrap">
+  <a class="logo" href="#" aria-label="Talenty i Rezultaty - strona główna"><img src="img/logo11.webp" width="414" height="142" alt="Talenty i Rezultaty"></a>
+  <ul class="menu" id="menu">
+   <li><a href="#oferta">Oferta</a></li>
+   <li><a href="#wyroznia">Rekrutacje</a></li>
+   <li><a href="#malgorzata">O nas</a></li>
+   <li><a href="#zaufali">Zaufali nam</a></li>
+   <li><a href="#inspiracje">Inspiracje</a></li>
+   <li><a href="#kontakt">Kontakt</a></li>
+  </ul>
+  <a class="tel" href="tel:+48512073600" aria-label="Zadzwoń: +48 512 073 600"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5.2 2.5l2.4 3.3-1.4 1.9c.9 2.2 2.6 3.9 4.6 4.8l1.9-1.4 3.3 2.4-1.1 3c-6.8-.4-12-5.6-12.4-12.4z" fill="none" stroke="#2D6BB3" stroke-width="1.8" stroke-linejoin="round"/></svg><span>+48 512 073 600</span></a>
+  <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+ </div>
+</header>
+
+<main>
+<section class="hero" id="start" style="padding:0">
+ <picture class="hero-foto">
+  <source media="(max-width:760px)" type="image/webp" srcset="img/hero-m-480.webp 480w, img/hero-m-720.webp 720w, img/hero-m-900.webp 900w" sizes="100vw">
+  <img src="img/hero-1440.webp" srcset="img/hero-960.webp 960w, img/hero-1440.webp 1440w, img/hero-1920.webp 1920w" sizes="100vw" width="1920" height="1230" alt="Małgorzata Prawdzik, właścicielka Talenty i Rezultaty" fetchpriority="high">
+ </picture>
+ <div class="hero-in">
+  <div class="hero-txt">
+   <img class="ogl" src="img/logotyp.webp" width="170" height="142" alt="">
+   <h1>Łączymy talenty z&nbsp;rezultatami</h1>
+   <p class="lead">Rekrutacje z gwarancją, rozwój firm i coaching kariery. Prowadzi je <b>Małgorzata Prawdzik</b> - certyfikowany coach, trener biznesu i wieloletni Manager Personalny.</p>
+   <a class="btn" href="#kontakt" id="cta">Porozmawiajmy o współpracy</a>
+  </div>
+ </div>
+</section>
+
+<section id="oferta">
+ <div class="wrap">
+  <div class="sec-h">
+   <div>
+    <div class="znak"><img class="og" src="img/logotyp.webp" width="170" height="142" alt="" loading="lazy"><span></span></div>
+    <h2>Trzy drogi, jeden cel: dobrze dobrani ludzie</h2>
+   </div>
+   <div>
+    <p class="haslo">Poznaj <i></i> Osiągaj <i></i> Rozwijaj</p>
+    <p style="margin-top:12px">Pomagamy firmom znaleźć i rozwinąć właściwych ludzi, a ludziom znaleźć właściwe miejsce. Najpierw poznajemy potrzeby, potem dobieramy narzędzia.</p>
+   </div>
+  </div>
+  <div class="sciezki">
+   <article class="sc">
+    <figure><img src="img/rozwoj-kadry-kierowniczej-800.webp" srcset="img/rozwoj-kadry-kierowniczej-800.webp 800w, img/rozwoj-kadry-kierowniczej-1200.webp 1200w" sizes="(max-width:1023px) 72vw, 30vw" width="800" height="436" loading="lazy" alt="Warsztat dla kadry kierowniczej"></figure>
+    <div class="sc-b">
+     <h3>Rozwój firm</h3>
+     <p>Rozwiązania, które pomagają stworzyć środowisko pracy sprzyjające efektywności i szybko dostosowywać się do zmian.</p>
+     <ul><li>Programy Total Leader Academy TM</li><li>Action Learning</li><li>Coaching</li><li>Employer Branding</li><li>Audyt personalny</li></ul>
+     <p class="kto">Dla zarządów, liderów i zespołów</p>
+    </div>
+   </article>
+   <article class="sc">
+    <figure><img src="img/proces-rekrutacji-800.webp" srcset="img/proces-rekrutacji-800.webp 800w, img/proces-rekrutacji-1200.webp 1200w" sizes="(max-width:1023px) 72vw, 30vw" width="800" height="436" loading="lazy" alt="Rozmowa rekrutacyjna"></figure>
+    <div class="sc-b">
+     <h3>Rekrutacje</h3>
+     <p>Kompleksowo: od poznania potrzeb organizacji, przez pozyskanie talentów, rozmowy i testy, aż po rekomendację najlepszych kandydatów.</p>
+     <ul><li>Rekrutacje z gwarancją</li><li>Narzędzia oceny kandydatów</li><li>Outplacement</li></ul>
+     <p class="kto">Dla firm, które szukają ludzi</p>
+    </div>
+   </article>
+   <article class="sc">
+    <figure><img src="img/coaching-kariery-800.webp" srcset="img/coaching-kariery-800.webp 800w, img/coaching-kariery-1200.webp 1200w" sizes="(max-width:1023px) 72vw, 30vw" width="800" height="436" loading="lazy" alt="Sesja coachingu kariery"></figure>
+    <div class="sc-b">
+     <h3>Kariera</h3>
+     <p>Wsparcie w świadomym budowaniu kariery: odkrycie talentów, predyspozycji i trafny wybór kierunku - przy awansie, zmianie pracy lub wypaleniu.</p>
+     <ul><li>Kompas Kariery</li><li>Coaching kariery</li><li>Studium Rozwoju Kariery</li><li>Skuteczne CV</li><li>Skuteczne interview</li></ul>
+     <p class="kto">Dla osób, które chcą zmiany</p>
+    </div>
+   </article>
+  </div>
+ </div>
+</section>
+
+<section id="wyroznia">
+ <svg class="petla" viewBox="0 0 120 72" aria-hidden="true"><path d="M56 17C45 6 20 5 10 21 2 35 9 57 28 62c16 4 32-6 34-20 1-6-1-11-4-15" fill="none" stroke="#E57E28" stroke-width="1.2" stroke-linecap="round"/><path d="M62 55c11 11 36 12 46-4 8-14 1-36-18-41-16-4-32 6-34 20-1 5 0 9 2 13" fill="none" stroke="#6FA3E0" stroke-width="1.2" stroke-linecap="round"/></svg>
+ <div class="wrap wyr">
+  <div>
+   <h2>Dobry biznes najlepiej zacząć od dobrych ludzi</h2>
+   <p class="wst">Rekrutujemy profesjonalistów dopasowanych do firmy pod kątem osobowości, kompetencji i doświadczenia. Tak pracujemy:</p>
+   <ol>
+    <li><b>Dogłębnie badamy potrzeby</b> firmy: politykę personalną, kulturę organizacyjną i markę pracodawcy.</li>
+    <li><b>Dobieramy kandydatów</b> pod kątem wiedzy i kwalifikacji, ale też osobowości, wartości i kultury.</li>
+    <li><b>20 lat doświadczenia</b> zespołu w specjalistycznych projektach rekrutacyjnych.</li>
+    <li><b>Elastyczna metodologia:</b> sieć kontaktów, własna baza, direct search, headhunting, social media.</li>
+    <li><b>Docieramy do najlepszych</b> także wtedy, gdy kandydatów trudno znaleźć.</li>
+    <li><b>Znamy lokalny rynek</b> i działamy etycznie.</li>
+   </ol>
+  </div>
+  <figure>
+   <img src="img/co-nas-wyroznia-800.webp" srcset="img/co-nas-wyroznia-800.webp 800w, img/co-nas-wyroznia-1200.webp 1200w" sizes="(max-width:1023px) 92vw, 44vw" width="800" height="436" loading="lazy" alt="Warsztaty prowadzone przez Talenty i Rezultaty" data-lb="1" data-full="img/co-nas-wyroznia-1200.webp">
+   <figcaption>Warsztaty i programy rozwojowe prowadzimy w firmach i w grupach otwartych.</figcaption>
+  </figure>
+ </div>
+</section>
+
+<section id="malgorzata">
+ <div class="wrap ja">
+  <div class="ja-foto">
+   <button data-lb="1" data-full="img/home1.webp" aria-label="Powiększ zdjęcie"><img src="img/home1.webp" width="768" height="500" loading="lazy" alt="Małgorzata Prawdzik podczas warsztatów"></button>
+   <button data-lb="1" data-full="img/home2.webp" aria-label="Powiększ zdjęcie"><img src="img/home2.webp" width="768" height="500" loading="lazy" alt="Małgorzata Prawdzik przy flipcharcie"></button>
+   <button data-lb="1" data-full="img/hero-1440.webp" aria-label="Powiększ zdjęcie"><img src="img/hero-m-480.webp" width="768" height="500" loading="lazy" alt="Portret Małgorzaty Prawdzik" style="object-position:50% 22%"></button>
+  </div>
+  <div class="tx">
+   <div class="znak"><img class="og" src="img/logotyp.webp" width="170" height="142" alt="" loading="lazy"><span></span></div>
+   <h2>Małgorzata Prawdzik</h2>
+   <p class="rola">Właścicielka Talenty i Rezultaty, coach i trener biznesu</p>
+   <p>Firma Talenty i Rezultaty powstała na gruncie wieloletnich i różnorodnych doświadczeń biznesowych jej założycielki. Zrodziła się z pasji do pobudzania talentów, zainteresowania Człowiekiem i radości z obserwacji rozwoju ludzi.</p>
+   <p>Współpracujemy z ekspertami w zakresie rozwoju człowieka i organizacji: certyfikowanymi coachami, wieloletnimi trenerami, doradcami zawodowymi, pedagogami i psychologami.</p>
+   <div class="kw">
+    <div><b>Ponad 800 godzin coachingu</b><span>Kilkadziesiąt procesów, głównie Coaching Kariery i Business Coaching.</span></div>
+    <div><b>Kilkanaście lat jako Manager Personalny</b><span>Była Prezesem Polskiego Stowarzyszenia Zarządzania Kadrami na Region Pomorski.</span></div>
+    <div><b>Certyfikowany coach</b><span>ICC International Coaching Community, CoachWise Essentials (akredytacja ICF), Leadership Management International.</span></div>
+    <div><b>Narzędzia oceny</b><span>Certyfikaty SHL (testy psychometryczne), ADS (metoda AC/DC) i Konsultanta Kariery Kompas Kariery.</span></div>
+    <div><b>Socjolog i trener biznesu</b><span>Katolicki Uniwersytet Lubelski, szkoła trenera ODiTK, podyplomowo doradztwo zawodowe, ZZL i pedagogika.</span></div>
+    <div><b>Stała superwizja</b><span>Swoją pracę coacha i trenera poddaje ocenie podczas stałej superwizji.</span></div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="zaufali">
+ <div class="wrap">
+  <div class="sec-h">
+   <h2>Zaufali nam</h2>
+   <p>Współpracowaliśmy z szeregiem firm i instytucji. Wśród naszych klientów są m.in.:</p>
+  </div>
+  <div class="loga">
+   <div class="lg"><img src="img/k-mpl-techma.webp" width="180" height="100" loading="lazy" alt="MPL Techma"><span>Programy Rozwojowe LMI</span></div>
+   <div class="lg"><img src="img/k-ibe.webp" width="452" height="100" loading="lazy" alt="IBE"><span>Rekrutacje ekspertów</span></div>
+   <div class="lg"><img src="img/k-administrator.webp" width="193" height="100" loading="lazy" alt="Administrator s.j."><span>Rekrutacje z gwarancją</span></div>
+   <div class="lg"><img src="img/k-opegieka.webp" width="436" height="100" loading="lazy" alt="Opegieka"><span>Program Rozwojowy LMI</span></div>
+   <div class="lg"><img src="img/k-akademia.webp" width="172" height="100" loading="lazy" alt="Akademia KZ"><span>Warsztaty coachingowe</span></div>
+   <div class="lg"><img src="img/k-gfp.webp" width="120" height="100" loading="lazy" alt="Gdańska Fundacja Przedsiębiorczości"><span>Szkolenia HR i Program Mentoringu</span></div>
+   <div class="lg"><img src="img/k-youll.webp" width="152" height="100" loading="lazy" alt="You'll"><span>Proces coachingu</span></div>
+   <div class="lg"><img src="img/k-KB-pracownia-przyrodnicza-2.webp" width="583" height="100" loading="lazy" alt="KB Pracownia Przyrodnicza"><span>Coaching</span></div>
+   <div class="lg"><img src="img/k-ergo-hestia-integralia-2.webp" width="312" height="90" loading="lazy" alt="Ergo Hestia Integralia"><span>Coaching</span></div>
+   <div class="lg"><b style="font-family:'Barlow SC',sans-serif;font-size:22px;color:var(--nv);line-height:1.15;min-height:52px;display:flex;align-items:center">Twoja firma?</b><span>Napisz, czego potrzebujesz</span></div>
+  </div>
+ </div>
+</section>
+
+<section id="inspiracje">
+ <div class="wrap">
+  <div class="sec-h">
+   <h2>Rozmowy i artykuły</h2>
+   <p>Wywiady i teksty Małgorzaty Prawdzik o pracy, rozwoju i talentach.</p>
+  </div>
+  <div class="art">
+   <article class="ar"><small>Rozmowa, prowadzi Wojciech Szramowski</small><h3>„Jeśli robisz to, co zawsze robiłeś, osiągniesz to, co zawsze osiągałeś”</h3><p>O programie „Efektywność własna” Paula J. Meyera i o tym, że każdy może rozwinąć cechy potrzebne do sukcesu.</p></article>
+   <article class="ar"><small>Wywiad dla portalu Stacja7.pl</small><h3>Nie ma czegoś takiego jak „porażka”</h3><p>Są doświadczenia, które nie zawsze przynoszą to, czego chcemy, ale są konieczne do osiągnięcia sukcesu.</p></article>
+   <article class="ar"><small>Artykuł</small><h3>Poznaj siebie, sprawdź, czy wykorzystujesz swój potencjał</h3><p>Testy to tylko narzędzia. Człowiek jest istotą złożoną i niepowtarzalną, dlatego najpierw pracuję z Klientem nad celem.</p></article>
+  </div>
+ </div>
+</section>
+
+<section id="kontakt">
+ <div class="wrap kon">
+  <div class="tx">
+   <div class="znak"><img class="og" src="img/logotyp.webp" width="170" height="142" alt="" loading="lazy"><span></span></div>
+   <h2>Skontaktuj się z nami</h2>
+   <p>Jeśli szukasz ludzi do firmy, chcesz rozwinąć zespół albo odnaleźć swoją drogę zawodową - napisz lub zadzwoń. Sprawdzimy, czy i jak nasze doświadczenie i narzędzia mogą pomóc.</p>
+   <div class="dane">
+    <div><small>Właściciel</small><b>Małgorzata Prawdzik</b></div>
+    <a href="tel:+48512073600"><small>Telefon</small><b>+48 512 073 600</b></a>
+    <a href="mailto:mprawdzik@talentyrezultaty.pl"><small>E-mail</small><b>mprawdzik@talentyrezultaty.pl</b></a>
+    <a href="https://www.facebook.com/TalentyRezultaty/" rel="noopener" target="_blank"><small>Facebook</small><b>TalentyRezultaty</b></a>
+   </div>
+  </div>
+  <form id="fo" novalidate>
+   <label>Imię i nazwisko<input name="n" autocomplete="name" required></label>
+   <label>Telefon lub e-mail<input name="k" autocomplete="email" required></label>
+   <label class="full">W czym możemy pomóc?
+    <select name="t"><option>Rekrutacja</option><option>Rozwój firmy i zespołu</option><option>Coaching i rozwój kariery</option><option>Inny temat</option></select>
+   </label>
+   <label class="full">Wiadomość<textarea name="w" rows="5" placeholder="Kilka zdań o potrzebie"></textarea></label>
+   <label class="zg full"><input type="checkbox" required> Wyrażam zgodę na przetwarzanie moich danych w celu odpowiedzi na zapytanie.</label>
+   <div class="full" style="display:flex;gap:18px;align-items:center;flex-wrap:wrap"><button class="btn" type="submit">Wyślij wiadomość</button><span class="fo-info" id="foi" aria-live="polite"></span></div>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <div class="st">
+   <div><img src="img/logobiale.webp" width="414" height="142" alt="Talenty i Rezultaty" loading="lazy"><p>Rekrutacje, rozwój firm i budowanie kariery.<br>Poznaj - Osiągaj - Rozwijaj</p></div>
+   <div><b>Oferta</b><ul><li><a href="#oferta">Rozwój firm</a></li><li><a href="#oferta">Rekrutacje</a></li><li><a href="#oferta">Kariera</a></li></ul></div>
+   <div><b>O nas</b><ul><li><a href="#malgorzata">Kim jesteśmy</a></li><li><a href="#wyroznia">Co nas wyróżnia</a></li><li><a href="#zaufali">Zaufali nam</a></li></ul></div>
+   <div><b>Kontakt</b><ul><li><a href="tel:+48512073600">+48 512 073 600</a></li><li><a href="mailto:mprawdzik@talentyrezultaty.pl">mprawdzik@<wbr>talentyrezultaty.pl</a></li></ul></div>
+  </div>
+  <div class="st-d"><span>© <span id="rok">2026</span> Talenty i Rezultaty Małgorzata Prawdzik</span><a class="wylinka-badge" href="https://wylinka.pl/?utm_source=talentyrezultaty.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a></div>
+ </div>
+</footer>
+
+<div class="mob" id="mob"><a class="m1" href="tel:+48512073600">Zadzwoń</a><a class="m2" href="#kontakt">Napisz do nas</a></div>
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie"><button class="x" aria-label="Zamknij">×</button><button class="pv" aria-label="Poprzednie">‹</button><img alt=""><button class="nx" aria-label="Następne">›</button><p></p></div>
+<script defer src="app.js"></script>
+</body>
+</html>
